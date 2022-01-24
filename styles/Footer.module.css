@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.fullMainCont {
+    width: 100%;
+}
+
+.mainCont {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 88px;
+    /* background-color: orange; */
+}
+.divLogo {
+    width: 25%;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 100px; */
+    /* background-color: red; */
+}
+.divNav {
+    width: 50%;
+    margin-right: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+.enverText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+}
+.btnContactUs {
+    width: 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    /* background-color: white; */
+}

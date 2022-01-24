@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.fullMainCont {
+    position: relative;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.mainCont {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    min-height: 400px;
+    /* background-color: orange; */
+}
+
+.contText {
+    width: 50%;
+    min-height: 200px;
+    margin-top: 100px;
+    /* background-color: brown; */
+}
+
+.contSecImage {
+    width: 50%;
+    min-height: 200px;
+    /* background-color: rgb(127, 190, 54); */
+}
+
+.divImage {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: pink; */
+}
+
+.divImageHiasan1 {
+    width: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 100px;
+    left: 55%;
+    /* background-color: pink; */
+}
+
+.divImageHiasan2 {
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    /* background-color: pink; */
+}
+
+.divImageHiasan3 {
+    width: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+    /* background-color: pink; */
+}
+
+.divImageHiasan4 {
+    width: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 40px;
+    right: 120px;
+    /* background-color: pink; */
+}
+
+.btnOurService {
+    width: 204px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    /* border: 1px solid #ffffff; */
+    border-radius: 4px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    background-color: #5454d4;
+}
