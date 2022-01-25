@@ -4,6 +4,8 @@ import Zigzag from '../../public/images/zigzag.png';
 import Circle from '../../public/images/double-circle.png';
 import Triangle from '../../public/images/double-triangle.png';
 import AddIcon from '../../public/images/add-icon.png';
+import Arrow from '../../public/images/arrow-diagonal.png';
+
 import styles from '../../styles/MainBanner.module.css';
 
 const MainBanner = () => {
@@ -20,7 +22,14 @@ const MainBanner = () => {
                             developers, we will provide the best service for those of you who use our services.
                         </p>
                     </div>
-                    <div className={styles.btnOurService}>Our Services</div>
+                    <div className={styles.btnOurService}>
+                        <div style={{display:'flex',alignItems:'center',marginLeft:'auto',marginRight:'auto',paddingLeft:20,width:'80%'}}>
+                            Our Services
+                            <div className={styles.divImageArrow}>
+                                <Image src={Arrow} alt="Arrow" width={12} height={12} layout="responsive" objectFit="cover" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={styles.contSecImage}>

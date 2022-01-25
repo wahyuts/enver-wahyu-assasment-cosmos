@@ -35,6 +35,13 @@
     /* background-color: pink; */
 }
 
+.divImageArrow {
+    width: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: pink; */
+}
+
 .divImageHiasan1 {
     width: 6%;
     margin-left: auto;
@@ -80,6 +87,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     color: #ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     /* border: 1px solid #ffffff; */
     border-radius: 4px;
     font-family: 'Nunito Sans', sans-serif;
@@ -146,5 +156,23 @@
         top: 40%;
         right: 45px;
         /* background-color: pink; */
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /*untuk desktop 1500 version (zomm out sekitar 75%)*/
+    .fullMainCont {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    /*untuk desktop 1900 version (zomm out sekitar 67%)*/
+    .fullMainCont {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
