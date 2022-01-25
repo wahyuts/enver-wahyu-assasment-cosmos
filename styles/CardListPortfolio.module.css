@@ -52,3 +52,39 @@
     left: 50px;
     /* background-color: pink; */
 }
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+    .fullMainCont {
+        margin-bottom: 120px;
+    }
+    .mainCont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxCardPortfolioTop {
+        align-items: center;
+        min-height: 300px;
+    }
+
+    .boxCardPortfolioCenter {
+        align-items: center;
+        min-height: 300px;
+    }
+
+    .boxCardPortfolioBottom {
+        align-items: center;
+        min-height: 300px;
+    }
+
+    .divImageHiasan4 {
+        width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -50px;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}

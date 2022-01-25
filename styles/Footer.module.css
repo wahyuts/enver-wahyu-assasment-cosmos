@@ -31,6 +31,22 @@
     align-items: center;
     /* background-color: red; */
 }
+
+.suppAndPrivacy {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.term {
+    cursor: pointer;
+}
+
+.divAllrightReserved {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .enverText {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -47,4 +63,41 @@
     text-align: center;
     cursor: pointer;
     /* background-color: white; */
+}
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+    .mainCont {
+        display: flex;
+        flex-direction: column;
+    }
+    .divLogo {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .divNav {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .suppAndPrivacy {
+        margin-right: 0px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+
+    .divAllrightReserved {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: flex-start;
+    }
 }

@@ -7,8 +7,8 @@ const ContactUsForTheService = () => {
     return (
         <div className={styles.fullMainCont}>
             <div className={styles.mainCont}>
-                <div style={{ width: '100%', display: 'flex' }}>
-                    <div style={{ width: '65%', marginRight: 10 }}>
+                <div className={styles.innerMainCont}>
+                    <div className={styles.outerTextContactus}>
                         <div style={{ width: '100%' }}>
                             <h2 style={{ textAlign: 'left' }}>Contact us for the service you want to use</h2>
                         </div>

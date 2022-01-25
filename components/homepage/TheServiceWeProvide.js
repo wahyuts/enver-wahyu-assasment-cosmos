@@ -7,7 +7,7 @@ const TheServiceWeProvide = () => {
     return (
         <div className={styles.fullMainCont}>
             <div className={styles.mainCont}>
-                <div style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto' }}>
+                <div className={styles.h2style}>
                     <h2 style={{ textAlign: 'center' }}>The Service We Provide For You</h2>
                 </div>
             </div>

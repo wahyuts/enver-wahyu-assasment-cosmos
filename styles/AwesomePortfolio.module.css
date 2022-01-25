@@ -24,3 +24,36 @@
     right: 120px;
     /* background-color: pink; */
 }
+
+.h2Style {
+    width: 60%;
+}
+
+.h2StyleParagraph {
+    text-align: left;
+}
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+    .fullMainCont {
+        margin-bottom: 50px;
+    }
+
+    .h2Style {
+        width: 100%;
+    }
+
+    .h2StyleParagraph {
+        text-align: center;
+    }
+
+    .divImageHiasan4 {
+        width: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+        /* background-color: pink; */
+    }
+}

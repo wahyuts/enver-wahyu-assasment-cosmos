@@ -84,9 +84,9 @@ const CardListService = () => {
                     </div>
                 </div>
 
-                <hr style={{ border: 'none', marginBottom: 70 }} />
+                <hr className={styles.hrStyle} />
 
-                <div className={styles.benListCard}>
+                <div className={styles.benListCard2}>
                     <div className={styles.boxCard}>
                         <div
                             style={{

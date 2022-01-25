@@ -89,3 +89,62 @@
     cursor: pointer;
     background-color: #5454d4;
 }
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+    .fullMainCont {
+        margin-bottom: 100px;
+    }
+    .mainCont {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contSecImage {
+        width: 100%;
+    }
+    .contText {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .divImageHiasan1 {
+        width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 100px;
+        left: 11%;
+        /* background-color: pink; */
+    }
+
+    .divImageHiasan2 {
+        width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 50px;
+        right: 40px;
+        /* background-color: pink; */
+    }
+
+    .divImageHiasan3 {
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 42%;
+        left: 11%;
+        /* background-color: pink; */
+    }
+
+    .divImageHiasan4 {
+        width: 6%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 40%;
+        right: 45px;
+        /* background-color: pink; */
+    }
+}

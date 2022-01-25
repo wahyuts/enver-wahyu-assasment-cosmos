@@ -113,9 +113,25 @@
     margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .grid {
         width: 100%;
         flex-direction: column;
     }
+} */
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+}
+
+@media only screen and (min-width: 1300px) {
+    /*untuk desktop 1300 version*/
+}
+
+@media only screen and (min-width: 1500px) {
+    /*untuk desktop 1500 version (zomm out sekitar 75%)*/
+}
+
+@media only screen and (min-width: 1900px) {
+    /*untuk desktop 1900 version (zomm out sekitar 67%)*/
 }

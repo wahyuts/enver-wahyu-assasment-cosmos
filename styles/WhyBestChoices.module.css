@@ -50,3 +50,27 @@
     margin-right: auto;
     /* background-color: pink; */
 }
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+    .fullMainCont {
+        margin-bottom: 100px;
+    }
+    .innerMainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: orange; */
+    }
+    .contText {
+        width: 100%;
+        min-height: 100px;
+    }
+    .contText2 {
+        width: 100%;
+        min-height: 100px;
+    }
+}

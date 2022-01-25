@@ -6,8 +6,8 @@ const AwesomePortfolio = () => {
     return (
         <div className={styles.fullMainCont}>
             <div className={styles.mainCont}>
-                <div style={{ width: '60%' }}>
-                    <h2 style={{ textAlign: 'left' }}>Our Awesome Portofolio</h2>
+                <div className={styles.h2Style}>
+                    <h2 className={styles.h2StyleParagraph}>Our Awesome Portofolio</h2>
                 </div>
             </div>
             <div className={styles.divImageHiasan4}>

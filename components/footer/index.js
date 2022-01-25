@@ -27,11 +27,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={styles.divNav}>
-                    <a style={{ marginRight: 50, cursor: 'pointer' }}>Support</a>
-                    <a style={{ marginRight: 50, cursor: 'pointer' }}>Privacy Policy</a>
-                    <a style={{ cursor: 'pointer' }}>Term and Conditions</a>
+                    <a className={styles.suppAndPrivacy}>Support</a>
+                    <a className={styles.suppAndPrivacy}>Privacy Policy</a>
+                    <a className={styles.term}>Term and Conditions</a>
                 </div>
-                <div style={{ width: '30%', display: 'flex', justifyContent: 'flex=end' }}>
+                <div className={styles.divAllrightReserved}>
                     <div style={{ marginLeft: 'auto' }}>
                         <a>© 2020 Enver, All Rights Reserved</a>
                     </div>
